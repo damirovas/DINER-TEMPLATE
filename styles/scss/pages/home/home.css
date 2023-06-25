@@ -1,0 +1,38 @@
+.placement-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m--20 {
+  margin: 20px;
+}
+
+.media-design {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  background-image: url(https://preview.colorlib.com/theme/diner/img/slider-1.jpg.webp);
+  background-position: 50%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 750px;
+}
+header .navbar-1 {
+  background-color: #000;
+  width: 100%;
+  height: 60px;
+  opacity: 65%;
+}
+header .navbar-1 a {
+  text-decoration: none;
+  color: #fff;
+}
+header .navbar-1 a:hover {
+  color: #808080;
+}/*# sourceMappingURL=home.css.map */

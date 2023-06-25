@@ -1,0 +1,47 @@
+@import "../variables/colors";
+
+
+.placement-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m--20{
+    margin: 20px;
+}
+.media-design{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+header{
+    background-image: url(https://preview.colorlib.com/theme/diner/img/slider-1.jpg.webp);
+    background-position: 50%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 750px;
+    .navbar-1{
+        background-color: $navbar-1;
+        width: 100%;
+        height: 60px;
+        opacity: 65%;
+        
+        a{
+            text-decoration: none;
+            color: $navbar-a-color;
+            &:hover{
+               color: $navbar-a-hover;
+            }
+        }
+        
+        
+       
+    }
+}
+
+
+
