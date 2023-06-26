@@ -50,6 +50,15 @@
     
    
 }
+.sec-card-design{
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
+    height: 250px;
+    transform: translateY(100px);
+
+}
+
 
 
 header{
@@ -103,7 +112,7 @@ header{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        transform: translateX(-20px);
+        margin-top: 30px;
         font-size: 20px;
         
        
@@ -111,6 +120,52 @@ header{
     
     
 }
+.sec-card-main-text{
+    .sec-card-first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 50px;
+        font-family: 'Dancing Script', cursive;
 
+        
+        
+    }
+    .sec-card-second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: $navbar-a-hover;
+        font-size: 20px;
+        margin-top: 60px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+           
+           
+ }
+ .image-design{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+ }
+.sec-cards{
+    .box-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: black;
+        color: white;
+        width: 250px;
+        height: 300px;
+        padding: 15px;
+        
+        
+    }
+}
 
 
