@@ -231,84 +231,40 @@ header{
         }
     }
 }
-.parent {
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
-
-.parent {
-display: grid;
-grid-template-columns: repeat(6, 1fr);
-grid-template-rows: repeat(6, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
-
-.div1 { grid-area: 1 / 1 / 3 / 4; }
-.div2 { grid-area: 1 / 4 / 5 / 6; }
-.div3 { grid-area: 1 / 6 / 5 / 7; }
-.div4 { grid-area: 3 / 1 / 7 / 2; }
-.div5 { grid-area: 3 / 2 / 7 / 4; }
-.div6 { grid-area: 5 / 4 / 7 / 7; }
-
-.cards-grid{
-    transform: translateY(400px);
-    .card-img-1{
-        width: 600px;
-        height: 300px;
-        object-fit: cover;
-    }
-    .div2{
-        background-color: black;
-        width: 500px;
-        height: 600px;
-        transform: translateX(-125px);
-        .third-card-design-main{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: $navbar-a-color;
-            font-family: 'Cormorant Garamond', serif;
-            transform: translateY(50px);
-            font-size: 40px;
-            font-weight: bold;
-
-        }
-        .third-card-design-sec{
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            color: $navbar-a-color;
-            font-size: 25px;
-            font-family: 'Cormorant Garamond', serif;
-            transform: translateY(50px);
-            padding: 20px;
-            font-weight: lighter;   
-        }
+.third-cards{
+    .third-card-img{
+        width: 400px;
+        height: 500px;
+        object-fit: contain;
+        transform: translateY(300px);
+        
         
     }
-    .card-button{
-        cursor: pointer;
-        display: flex;
-        justify-self: center;
-        align-items: center;
+    .third-card{
+        background-color: $navbar-1;
+        color: $navbar-a-color;
+        padding: 20px;
         transform: translateY(100px);
-        margin: 20px;
-        padding: 15px;
-        border-radius: 15px;
-        background-color: black;
-        color: $card-bgc;
-        border: 3px solid $card-bgc;
-        &:hover{
-            background-color: $card-bgc;
-            color: $navbar-a-color;
+        .third-card-main-text{
+            font-size: 30px;
+            font-family: 'Kaushan Script';
         }
-        
-
+        .third-card-sec-text{
+            font-size: 20px;
+           font-family: 'Kaushan Script'; 
+          
+        }
+        .card-btn{
+            background-color: black;
+            border: 3px solid $card-bgc;
+            color: $card-bgc;
+           padding: 10px;
+           border-radius: 5px;
+           &:hover{
+            background-color: $card-bgc;
+            color: white;
+           }
+        }
     }
 }
 
