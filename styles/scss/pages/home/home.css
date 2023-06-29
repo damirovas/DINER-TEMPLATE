@@ -1,3 +1,9 @@
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .placement-header {
   display: flex;
   justify-content: center;
@@ -237,4 +243,58 @@ header .header-main-text {
 .third-cards .third-card .card-btn:hover {
   background-color: #FFA500;
   color: white;
+}
+
+.menu-list {
+  transform: translateY(300px);
+}
+.menu-list .menu-text {
+  font-size: 40px;
+  font-family: "Alice", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list .menu-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  transform: translateY(100px);
+}
+.menu-list .menu-section a {
+  -webkit-text-decoration: underline 2px #FFA500;
+          text-decoration: underline 2px #FFA500;
+  color: black;
+  font-size: 20px;
+  font-family: "Alice", serif;
+}
+.menu-list .menu-section a:hover {
+  text-decoration: none;
+}
+.menu-list .menu-1 {
+  transform: translateY(200px);
+}
+.menu-list .menu-1 .menu-list-main {
+  font-size: 30px;
+}
+.menu-list .menu-1 a {
+  text-decoration: none;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  color: black;
+}
+.menu-list .menu-1 .menu-text {
+  color: #878787;
+  font-size: 20px;
+  transform: translateY(-20px);
+}
+.menu-list .menu-1 .money-mark {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ff8b00;
+  font-size: 20px;
 }/*# sourceMappingURL=home.css.map */

@@ -1,6 +1,15 @@
 @import "../variables/colors";
 
 
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .placement-header{
     display: flex;
     justify-content: center;
@@ -245,6 +254,7 @@ header{
         color: $navbar-a-color;
         padding: 20px;
         transform: translateY(100px);
+        
         .third-card-main-text{
             font-size: 30px;
             font-family: 'Kaushan Script';
@@ -252,6 +262,7 @@ header{
         .third-card-sec-text{
             font-size: 20px;
            font-family: 'Kaushan Script'; 
+           
           
         }
         .card-btn{
@@ -260,6 +271,7 @@ header{
             color: $card-bgc;
            padding: 10px;
            border-radius: 5px;
+           
            &:hover{
             background-color: $card-bgc;
             color: white;
@@ -267,7 +279,63 @@ header{
         }
     }
 }
+.menu-list{
+transform: translateY(300px);
+    
+    .menu-text{
+        font-size: 40px;
+        font-family: 'Alice', serif;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
 
+    }
+    .menu-section{
+        display: flex;
+        justify-content: center;
+        align-items:center ; 
+        gap: 60px;
+        transform: translateY(100px);
+        
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+           text-decoration: underline 2px $card-bgc;
+            color: black;
+            font-size: 20px;
+             font-family: 'Alice', serif;;
+        }
+    }
+    .menu-1{
+        transform: translateY(200px);
+        .menu-list-main{
+            font-size: 30px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            text-decoration: none;
+            font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+            color: black;
+        }
+        .menu-text{
+            color: $menu-text;
+            font-size: 20px;
+            transform: translateY(-20px);
+        }
+        .money-mark{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            
+            color: $money-mark;
+            font-size: 20px;
+        }
+    }
+    
+}
 
 
 
