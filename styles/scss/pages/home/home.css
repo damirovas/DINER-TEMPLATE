@@ -1,4 +1,4 @@
-.d-flex {
+body .d-flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,8 +47,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Dancing Script", cursive;
-  font-family: "Pacifico", cursive;
   font-family: "Satisfy", cursive;
   font-weight: bold;
   margin: 50px;
@@ -66,29 +64,29 @@
   transform: translateY(100px);
 }
 
-header {
+.header {
   background-image: url(https://preview.colorlib.com/theme/diner/img/slider-1.jpg.webp);
   background-position: 50%;
   background-attachment: fixed;
   width: 100%;
   height: 800px;
-  opacity: 100%;
+  overflow: hidden;
 }
-header .navbar-1 {
+.header .navbar-1 {
   background-color: #000;
   width: 100%;
   height: 60px;
 }
-header .navbar-1 a {
+.header .navbar-1 a {
   text-decoration: none;
   color: #fff;
   font-family: "Dancing Script", cursive;
   font-size: 20px;
 }
-header .navbar-1 a:hover {
+.header .navbar-1 a:hover {
   color: #808080;
 }
-header .header-main-text {
+.header .header-main-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,8 +98,6 @@ header .header-main-text {
 }
 
 .cards .card-secondary-text {
-  font-family: "Dancing Script", cursive;
-  font-family: "Pacifico", cursive;
   font-family: "Satisfy", cursive;
   display: flex;
   justify-content: center;
@@ -127,7 +123,7 @@ header .header-main-text {
   flex-direction: column;
   color: #808080;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -152,7 +148,6 @@ header .header-main-text {
   color: white;
   width: 250px;
   height: 300px;
-  padding: 15px;
 }
 .sec-cards .box-1 .sec-card-main-text {
   font-size: 20px;
@@ -297,4 +292,31 @@ header .header-main-text {
   align-items: center;
   color: #ff8b00;
   font-size: 20px;
+}
+
+.last-card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(600px);
+  font-family: "Dancing Script", cursive;
+}
+.last-card-text .last-card-main {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.last-card-text .last-card-sec {
+  font-size: 25px;
+}
+
+.last-card {
+  transform: translateY(700px);
+}
+.last-card .last-card-img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: translateX(300px);
 }/*# sourceMappingURL=home.css.map */

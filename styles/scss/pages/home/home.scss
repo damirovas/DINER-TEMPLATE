@@ -2,6 +2,7 @@
 
 
 
+body
 .d-flex{
     display: flex;
     justify-content: center;
@@ -47,8 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Pacifico', cursive;
+    
     font-family: 'Satisfy', cursive;
     font-weight: bold;
     margin: 50px; 
@@ -70,13 +70,14 @@
 
 
 
-header{
+.header{
     background-image: url(https://preview.colorlib.com/theme/diner/img/slider-1.jpg.webp);
     background-position: 50%;
     background-attachment: fixed;
     width: 100%;
     height: 800px;
-    opacity: 100%;
+    overflow: hidden;
+    
     
     .navbar-1{
         background-color: $navbar-1;
@@ -114,8 +115,7 @@ header{
 }
 .cards{
     .card-secondary-text{
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Pacifico', cursive;
+       
         font-family: 'Satisfy', cursive;
         display: flex;
         justify-content: center;
@@ -149,9 +149,9 @@ header{
         flex-direction: column;
         color: $navbar-a-hover;
         font-size: 20px;
-        margin-top: 60px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-            }
+        margin-top: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif; }
+           
            
            
  }
@@ -163,6 +163,8 @@ header{
  }
 .sec-cards{
     transform: translateY(100px);
+   
+    
     .box-1{
         display: flex;
         flex-direction: column;
@@ -172,7 +174,7 @@ header{
         color: white;
         width: 250px;
         height: 300px;
-        padding: 15px;
+        
         .sec-card-main-text{
             font-size: 20px;
             font-weight: bold;
@@ -329,12 +331,38 @@ transform: translateY(300px);
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            
             color: $money-mark;
             font-size: 20px;
         }
     }
     
+}
+.last-card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(600px);
+    font-family: 'Dancing Script', cursive;
+    .last-card-main{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .last-card-sec{
+        font-size: 25px;
+    }
+   
+}
+.last-card{
+    transform: translateY(700px);
+    
+    .last-card-img{
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        transform: translateX(300px);
+       
+    }
 }
 
 
