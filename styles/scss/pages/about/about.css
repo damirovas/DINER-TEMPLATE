@@ -1,1 +1,442 @@
-/*# sourceMappingURL=about.css.map */
+body .d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placement-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m--20 {
+  margin: 20px;
+}
+
+.media-design {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.f--30 {
+  font-size: 40px;
+}
+
+.card-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 100px;
+  background-color: #FFA500;
+  background-position: 50%;
+  -o-object-position: center;
+     object-position: center;
+  margin-left: 100px;
+  border: 2px solid black;
+}
+
+.card-main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  margin: 50px;
+  margin-right: 100px;
+  font-size: 25px;
+}
+
+.sec-card-design {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 200px;
+  height: 250px;
+  transform: translateY(100px);
+}
+
+header {
+  background-image: url(https://preview.colorlib.com/theme/diner/img/slider-1.jpg.webp);
+  background-position: 50%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+header .navbar-1 {
+  background-color: #000;
+  width: 100%;
+  height: 60px;
+}
+header .navbar-1 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+header .navbar-1 a:hover {
+  color: #808080;
+}
+header .header-main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+  margin-top: 100px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.cards .card-secondary-text {
+  font-family: "Satisfy", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.sec-card-main-text .sec-card-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+  font-family: "Dancing Script", cursive;
+}
+.sec-card-main-text .sec-card-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #808080;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.image-design {
+  width: 250px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.sec-cards {
+  transform: translateY(100px);
+}
+.sec-cards .box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 250px;
+  height: 300px;
+}
+.sec-cards .box-1 .sec-card-main-text {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+.sec-cards .box-1 .sec-card-money-mark {
+  font-size: 20px;
+  color: #FFA500;
+}
+
+.about-chefs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(150px);
+}
+.about-chefs .main-text-chefs {
+  font-size: 20px;
+  transform: translateY(150px);
+  font-family: "Satisfy", cursive;
+}
+.about-chefs .chef-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  transform: translateY(90px);
+}
+.about-chefs .sec-text-chef {
+  transform: translateY(200px);
+}
+.about-chefs .sec-text-chef .chef-name {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.about-chefs .sec-text-chef .chef-name-sec {
+  transform: translateX(10px);
+}
+.about-chefs .rounds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(200px);
+  gap: 20px;
+}
+.about-chefs .rounds .round-1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FFA500;
+}
+.about-chefs .rounds .round-2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #FFA500;
+}
+
+.third-cards .third-card-img {
+  width: 400px;
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transform: translateY(300px);
+}
+.third-cards .third-card {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  transform: translateY(100px);
+}
+.third-cards .third-card .third-card-main-text {
+  font-size: 30px;
+  font-family: "Kaushan Script";
+}
+.third-cards .third-card .third-card-sec-text {
+  font-size: 20px;
+  font-family: "Kaushan Script";
+}
+.third-cards .third-card .card-btn {
+  background-color: black;
+  border: 3px solid #FFA500;
+  color: #FFA500;
+  padding: 10px;
+  border-radius: 5px;
+}
+.third-cards .third-card .card-btn:hover {
+  background-color: #FFA500;
+  color: white;
+}
+
+.menu-list {
+  transform: translateY(300px);
+}
+.menu-list .menu-text {
+  font-size: 40px;
+  font-family: "Alice", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list .menu-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  transform: translateY(100px);
+}
+.menu-list .menu-section a {
+  -webkit-text-decoration: underline 2px #FFA500;
+          text-decoration: underline 2px #FFA500;
+  color: black;
+  font-size: 20px;
+  font-family: "Alice", serif;
+}
+.menu-list .menu-section a:hover {
+  text-decoration: none;
+}
+.menu-list .menu-1 {
+  transform: translateY(200px);
+}
+.menu-list .menu-1 .menu-list-main {
+  font-size: 30px;
+}
+.menu-list .menu-1 a {
+  text-decoration: none;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  color: black;
+}
+.menu-list .menu-1 .menu-text {
+  color: #878787;
+  font-size: 20px;
+  transform: translateY(-20px);
+}
+.menu-list .menu-1 .money-mark {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ff8b00;
+  font-size: 20px;
+}
+
+.last-card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(600px);
+  font-family: "Dancing Script", cursive;
+}
+.last-card-text .last-card-main {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.last-card-text .last-card-sec {
+  font-size: 25px;
+}
+
+.last-card {
+  transform: translateY(700px);
+}
+.last-card .last-card-img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: translateX(300px);
+}
+
+.wave-pic-2 {
+  transform: translateY(800px);
+}
+
+.footer-menu {
+  transform: translateY(900px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-menu .footer-menu-main-text {
+  font-weight: bolder;
+  font-family: "Bacasime Antique", serif;
+  font-size: 20px;
+}
+.footer-menu .footer-menu-sec-text {
+  font-family: "Bacasime Antique", serif;
+  font-size: 15px;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: #ff8b00;
+}
+
+.btn-outline-secondary {
+  background-color: #ff8b00;
+  color: black;
+}
+
+footer {
+  transform: translateY(1000px);
+  background-color: black;
+  height: 80px;
+  color: white;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked + .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  left: 0 !important;
+}
+
+.menu__btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: 0.25s;
+}
+
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+
+.menu__item:hover {
+  background-color: #CFD8DC;
+}/*# sourceMappingURL=about.css.map */
