@@ -70,7 +70,7 @@ body
 
 
 
-.header{
+header{
     background-image: url(https://preview.colorlib.com/theme/diner/img/slider-1.jpg.webp);
     background-position: 50%;
     background-attachment: fixed;
@@ -363,7 +363,50 @@ transform: translateY(300px);
         transform: translateX(300px);
        
     }
+    
 }
+.wave-pic-2{
+    transform: translateY(800px);
+}
+
+.footer-menu{
+    transform: translateY(900px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+   
+   
+    .footer-menu-main-text{
+        font-weight: bolder;
+        font-family: 'Bacasime Antique', serif;
+        font-size: 20px;
+     
+        
+    }
+    
+    .footer-menu-sec-text{
+        font-family: 'Bacasime Antique', serif;  
+        font-size: 15px;
+    }
+    a{
+        text-decoration: none;
+        color: $money-mark;
+    }
+
+}
+.btn-outline-secondary{
+    background-color: $money-mark;
+    color: black;
+}
+footer{
+    transform: translateY(1000px);
+    background-color: black;
+    height: 80px;
+    color: white;
+}
+
+
 
 
 
