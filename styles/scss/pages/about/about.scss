@@ -29,45 +29,12 @@ body
 .f--30{
     font-size: 40px;
 }
-.card-design{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-top: 100px;
-    background-color: $card-bgc;
-    background-position: 50%;
-    object-position: center;
-    margin-left: 100px;
-    border: 2px solid black;
-    
-}
-.card-main-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    font-family: 'Satisfy', cursive;
-    font-weight: bold;
-    margin: 50px; 
-    margin-right: 100px;
-    font-size: 25px;
-    
-   
-    
-   
-}
-.sec-card-design{
-    object-fit: cover;
-    object-position: center;
-    width: 200px;
-    height: 250px;
-    transform: translateY(100px);
 
-}
+   
+    
+   
+
+
 
 
 
@@ -103,312 +70,90 @@ header{
        
     }
     .header-main-text{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-family: 'Dancing Script', cursive;
         margin-top: 100px;
-        font-size: 50px;
-        color: $header-main-texts;
-       
-    }
-}
-.cards{
-    .card-secondary-text{
-       
-        font-family: 'Satisfy', cursive;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 30px;
-        font-size: 20px;
-        
-       
-    }
-    
-    
-}
-.sec-card-main-text{
-    .sec-card-first{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-        font-weight: bold;
-        margin-top: 50px;
-        font-family: 'Dancing Script', cursive;
-
-        
-        
-    }
-    .sec-card-second{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: $navbar-a-hover;
-        font-size: 20px;
-        margin-top: 10px;
-        font-family: Georgia, 'Times New Roman', Times, serif; }
-           
-           
-           
- }
- .image-design{
-    width: 250px;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
- }
-.sec-cards{
-    transform: translateY(100px);
-   
-    
-    .box-1{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        background-color: black;
-        color: white;
-        width: 250px;
-        height: 300px;
-        
-        .sec-card-main-text{
-            font-size: 20px;
-            font-weight: bold;
-            font-family: 'Playfair Display', serif;
-            
-            
-        }
-        .sec-card-money-mark{
-            font-size: 20px;
-            color: $card-money-mark;
-        }
-        
-        
-    }
-}
-.about-chefs{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transform: translateY(150px);
-    .main-text-chefs{
-        font-size: 20px;
-        transform: translateY(150px);
-        font-family: 'Satisfy', cursive;
-
-
-
-
-    }
-    .chef-img{
-        width: 90px;
-        height: 90px;
-        border-radius:50%;
-        transform: translateY(90px);
-
-    }
-    .sec-text-chef{
-        transform: translateY(200px);
-        .chef-name{
-            font-size: 20px;
-            font-weight: bolder;
-        }
-        .chef-name-sec{
-            transform: translateX(10px);
-        }
-    }
-    .rounds{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translateY(200px);
-        gap: 20px;
-        .round-1{
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background-color: $card-bgc;
-        }
-        .round-2{
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background-color: $card-bgc;   
-        }
-    }
-}
-.third-cards{
-    .third-card-img{
-        width: 400px;
-        height: 500px;
-        object-fit: contain;
-        transform: translateY(300px);
-        
-        
-    }
-    .third-card{
-        background-color: $navbar-1;
-        color: $navbar-a-color;
-        padding: 20px;
-        transform: translateY(100px);
-        
-        .third-card-main-text{
-            font-size: 30px;
-            font-family: 'Kaushan Script';
-        }
-        .third-card-sec-text{
-            font-size: 20px;
-           font-family: 'Kaushan Script'; 
-           
-          
-        }
-        .card-btn{
-            background-color: black;
-            border: 3px solid $card-bgc;
-            color: $card-bgc;
-           padding: 10px;
-           border-radius: 5px;
-           
-           &:hover{
-            background-color: $card-bgc;
-            color: white;
-           }
-        }
-    }
-}
-.menu-list{
-transform: translateY(300px);
-    
-    .menu-text{
         font-size: 40px;
-        font-family: 'Alice', serif;
-        display: flex;
-        justify-content: center;
-        align-items:center ;
-
-    }
-    .menu-section{
-        display: flex;
-        justify-content: center;
-        align-items:center ; 
-        gap: 60px;
-        transform: translateY(100px);
+        color: $header-main-texts;
         
-        a{
-            &:hover{
-                text-decoration: none;
-            }
-           text-decoration: underline 2px $card-bgc;
-            color: black;
-            font-size: 20px;
-             font-family: 'Alice', serif;;
-        }
+       
     }
-    .menu-1{
-        transform: translateY(200px);
-        .menu-list-main{
-            font-size: 30px;
-        }
-        a{
-            text-decoration: none;
-            font-size: 20px;
-            text-decoration: none;
-            font-family: 'Dancing Script', cursive;
-            font-size: 20px;
-            color: black;
-        }
-        .menu-text{
-            color: $menu-text;
-            font-size: 20px;
-            transform: translateY(-20px);
-        }
-        .money-mark{
+}
+.container-1{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+
+
+    .card-1-img{
+        width: 600px;
+        height: 600px;
+        object-fit: contain;
+    }
+    .card-1-texts{
+        
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            color: $money-mark;
-            font-size: 20px;
+            flex-direction: column;
+
+
+        .card-1-main{
+            
+            font-size: 30px;
+            font-weight: bolder;
+            font-family: 'Ysabeau Infant', sans-serif;
+
+        }
+        .card-1-sec{
+            font-family: 'Ysabeau Infant', sans-serif;
         }
     }
-    
 }
-.last-card-text{
+.card-2-texts{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transform: translateY(600px);
-    font-family: 'Dancing Script', cursive;
-    .last-card-main{
-        font-size: 40px;
-        font-weight: bolder;
-    }
-    .last-card-sec{
-        font-size: 25px;
-    }
-   
-}
-.last-card{
-    transform: translateY(700px);
     
-    .last-card-img{
-        width: 400px;
-        height: 400px;
-        object-fit: cover;
-        transform: translateX(300px);
-       
-    }
-    
-}
-.wave-pic-2{
-    transform: translateY(800px);
-}
-
-.footer-menu{
-    transform: translateY(900px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-   
-   
-    .footer-menu-main-text{
+    .card-2-main{
+        font-size: 30px;
         font-weight: bolder;
-        font-family: 'Bacasime Antique', serif;
+        font-family: 'Merriweather', serif;
+    }
+    .card-2-sec{
         font-size: 20px;
-     
+        font-family: 'Merriweather', serif;
+    }
+
+
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    transform: translateY(100px);
+    
+    .card-3-img{
+        width: 350px;
+        height:350 ;
+        object-fit: contain;
         
     }
-    
-    .footer-menu-sec-text{
-        font-family: 'Bacasime Antique', serif;  
-        font-size: 15px;
-    }
-    a{
-        text-decoration: none;
-        color: $money-mark;
-    }
-   
-
 }
-.btn-outline-secondary{
-    background-color: $money-mark;
-    color: black;
-}
-footer{
-    transform: translateY(1000px);
-    background-color: black;
-    height: 80px;
-    color: white;
+.container-4{
+    transform: translateY(200px);
 }
 
-// MEDIA QUERIES
+
+
 
 
 
