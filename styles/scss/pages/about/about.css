@@ -75,7 +75,7 @@ header .header-main-text {
 .container-1 .card-1-texts {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 .container-1 .card-1-texts .card-1-main {
@@ -118,6 +118,85 @@ header .header-main-text {
 
 .container-4 {
   transform: translateY(200px);
+}
+
+.container-5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  transform: translateY(300px);
+}
+.container-5 .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container-5 .cards .card-main {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+}
+.container-5 .cards .card-sec {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.container-5 .cards .chef-img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wave-pic {
+  transform: translateY(200px);
+  width: 100%;
+  height: 150px;
+}
+
+.container-6 {
+  display: flex;
+  flex-direction: row;
+  align-items: self-start;
+  justify-content: space-around;
+  transform: translateY(500px);
+}
+.container-6 .last-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container-6 .last-card .last-card-main {
+  font-size: 30px;
+  font-family: "Bacasime Antique", serif;
+}
+.container-6 .last-card-sec {
+  font-size: 15px;
+}
+.container-6 a {
+  color: #FFA500;
+  text-decoration: none;
+}
+.container-6 .btn-outline-secondary {
+  background-color: #FFA500;
+  color: #000;
+}
+.container-6 .btn-outline-secondary:hover {
+  background-color: #FFD580;
+}
+
+footer {
+  transform: translateY(600px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  height: 50px;
 }
 
 #menu__toggle {
@@ -201,4 +280,33 @@ header .header-main-text {
 
 .menu__item:hover {
   background-color: #CFD8DC;
+}
+
+@media screen and (max-width: 400px) {
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+  }
+  .container-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+  }
+  .container-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=about.css.map */
