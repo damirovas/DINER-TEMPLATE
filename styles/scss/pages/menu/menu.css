@@ -1,1 +1,298 @@
-/*# sourceMappingURL=menu.css.map */
+body .d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placement-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m--20 {
+  margin: 20px;
+}
+
+.media-design {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.f--30 {
+  font-size: 40px;
+}
+
+header {
+  background-image: url(https://preview.colorlib.com/theme/diner/img/slider-1.jpg.webp);
+  background-position: 50%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+header .navbar-1 {
+  background-color: #000;
+  width: 100%;
+  height: 60px;
+}
+header .navbar-1 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+header .navbar-1 a:hover {
+  color: #808080;
+}
+header .header-main-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+  margin-top: 100px;
+  font-size: 40px;
+  color: #fff;
+}
+header .header-main-text .header-main-1 {
+  font-weight: bolder;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-1 .card-1-img {
+  width: 600px;
+  height: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container-1 .card-1-texts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.container-1 .card-1-texts .card-1-main {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+.container-1 .card-1-texts .card-1-sec {
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-list .menu-list-main {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Domine", serif;
+}
+.menu-list .menu-list-sec {
+  display: flex;
+  gap: 40px;
+  margin: 30px;
+}
+.menu-list .menu-list-sec a {
+  text-decoration: none;
+  color: #ff8b00;
+}
+.menu-list .menu-list-sec a:hover {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+.menu-list .menu {
+  margin: 30px;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  transform: translateY(100px);
+}
+.container-3 .card-3-img {
+  width: 350px;
+  height: 350;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.container-4 {
+  transform: translateY(200px);
+}
+
+.container-5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  transform: translateY(300px);
+}
+.container-5 .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container-5 .cards .card-main {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+}
+.container-5 .cards .card-sec {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.container-5 .cards .chef-img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wave-pic {
+  transform: translateY(200px);
+  width: 100%;
+  height: 150px;
+}
+
+.container-6 {
+  display: flex;
+  flex-direction: row;
+  align-items: self-start;
+  justify-content: space-around;
+  transform: translateY(500px);
+}
+.container-6 .last-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container-6 .last-card .last-card-main {
+  font-size: 30px;
+  font-family: "Bacasime Antique", serif;
+}
+.container-6 .last-card-sec {
+  font-size: 15px;
+}
+.container-6 a {
+  color: #FFA500;
+  text-decoration: none;
+}
+.container-6 .btn-outline-secondary {
+  background-color: #FFA500;
+  color: #000;
+}
+.container-6 .btn-outline-secondary:hover {
+  background-color: #FFD580;
+}
+
+footer {
+  transform: translateY(600px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  height: 50px;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked + .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+
+#menu__toggle:checked + .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  left: 0 !important;
+}
+
+.menu__btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: 0.25s;
+}
+
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+
+.menu__item:hover {
+  background-color: #CFD8DC;
+}/*# sourceMappingURL=menu.css.map */

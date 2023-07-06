@@ -306,15 +306,18 @@ footer{
   background-color: #CFD8DC;
 }
 
+// MEDIA.................................................
 
-
-@media screen and (max-width:400px){
+@media screen and (max-width:$mobile){
   .container-1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 40px;
+    .card-1-img{
+      width: 350px;
+    }
   }
   .container-3{
     display: flex;
@@ -344,6 +347,68 @@ margin: 30px;
  }
  
 }
+@media screen and (max-width:$table){
+  header{
+    width: 100%;
+  }
+  .container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    .card-1-img{
+      width: 350px;
+    }
+  }
+  .container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+  }
+  .container-4{
+    margin: 40px;
+  }
+  .container-5{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+  .container-6{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+  }
+ .card-2-texts{
+margin: 30px;
+
+ }
+ 
+}
+  
+@media screen and (max-width:$desktop){
+  .container-1{
+
+    .card-1-img{
+      
+      width: 300px;
+    }
+   .card-1-texts{
+    margin: 40px;
+   }
+    
+  }
+  .container-5{
+    flex-direction: column;
+    
+  }
+
+}
+
 
 
 

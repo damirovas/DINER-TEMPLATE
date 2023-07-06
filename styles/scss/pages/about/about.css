@@ -290,6 +290,9 @@ footer {
     justify-content: center;
     margin: 40px;
   }
+  .container-1 .card-1-img {
+    width: 350px;
+  }
   .container-3 {
     display: flex;
     flex-direction: column;
@@ -314,5 +317,56 @@ footer {
   }
   .card-2-texts {
     margin: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+  }
+  .container-1 .card-1-img {
+    width: 350px;
+  }
+  .container-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+  }
+  .container-4 {
+    margin: 40px;
+  }
+  .container-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-2-texts {
+    margin: 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container-1 .card-1-img {
+    width: 300px;
+  }
+  .container-1 .card-1-texts {
+    margin: 40px;
+  }
+  .container-5 {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=about.css.map */
