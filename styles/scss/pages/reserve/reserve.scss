@@ -20,14 +20,9 @@ body
 .m--20{
     margin: 20px;
 }
-.media-design{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    object-fit: cover;
-}
+
 .f--30{
-    font-size: 40px;
+    font-size: 30px;
 }
 
    
@@ -43,7 +38,7 @@ header{
     background-position: 50%;
     background-attachment: fixed;
     width: 100%;
-    height: 800px;
+    height: 600px;
     overflow: hidden;
     
     
@@ -86,6 +81,50 @@ header{
        
     }
 }
+
+
+.contact-table-texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    .contact-table-main{
+        font-size: 35px;
+        font-weight: bolder;
+        font-family: 'Crimson Text', serif;
+        margin: 40px;
+        .contact-table-sec{
+            font-size: 25px;
+            font-weight: lighter;
+            font-family: 'Crimson Text', serif;
+        }
+    }
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contact-form{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    .form-1{
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+    }
+    .date{
+   margin-top:20 ;
+    }
+    .btn-warning{
+     margin-top: 20px;
+    }
+  }
+}
 .container-1{
     
     display: flex;
@@ -120,48 +159,7 @@ header{
         }
     }
 }
-.menu-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    .menu-list-main{
-        font-size: 30px;
-        font-weight: bolder;
-        font-family: 'Domine', serif;
-    }
-    .menu-list-sec{
-        display: flex;
-        gap: 40px;
-        margin: 30px;
-        a{
-           text-decoration: none;
-        color: $menu-list-color;
-        
-        &:hover{
-            text-decoration: underline 2px;
-        } 
-    } 
- }
-        
-    .menu{
-        margin: 30px;
-        .menu-main{
-            font-weight: bolder;
-           font-size: 25px;
-           font-family: 'Domine', serif;
-        }
-        .menu-sec{
-            font-weight: lighter;
-        }
-        .money-mark{
-            color: $money-mark;
-            
-        }
-    }
-       
-       
-}
+
 
 
 
@@ -227,7 +225,7 @@ header{
   flex-direction: row;
   align-items: self-start;
   justify-content: space-around;
-  transform: translateY(700px);
+  transform: translateY(500px);
   .last-card{
     display: flex;
     flex-direction: column;
@@ -253,7 +251,7 @@ header{
   }
 }
 footer{
-  transform: translateY(700px);
+  transform: translateY(600px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -261,56 +259,21 @@ footer{
   color: white;
   height: 50px;
 }
-.container-7{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  transform: translateY(500px);
-  .card-img{
-    width: 250px;
-    height: 300px;
-    object-fit: cover;
-  }
-  .box-1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    color: white;
-    background-color: black;
-    height: 300px;
-    .sec-card-main-text{
-      font-weight: bolder;
-    }
-    .sec-card-money-mark{
-      color: $card-bgc;
-    }
-  }
-}
-
-// MEDIA QUERY
-
-@media screen and ( max-width:$mobile){
+@media screen and (max-width:$mobile){
   .header-main-text{
-   .header-main-2{
-    font-size: 25px;
-    margin: 15px;
-    
-   }
-  } 
-  .container-1{
+    .header-main-2{
+     font-size: 20px;
+     margin: 15px;
+     
+    }
+   } 
+   .contact-table-texts{
     display: flex;
     flex-direction: column;
-    .card-1-img{
-      width: 300px;
-    }
-    .card-1-texts{
-      margin: 20px;
-    }
-  }
-  .container-4{
+    justify-content: center;
+    align-items:center;
+   }
+   .container-4{
     .card-2-main{
       font-size: 25px;
     }
@@ -322,12 +285,38 @@ footer{
     display: flex;
     flex-direction: column;
   }
-  .container-7{
+  .container-6{
     display: flex;
     flex-direction: column;
-    .box-1{
-      width: 250px;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media screen and (max-width:$table){
+  .header-main-text{
+    .header-main-2{
+     font-size: 20px;
+     margin: 15px;
+     
     }
+   } 
+   .contact-table-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+   }
+   .container-4{
+    .card-2-main{
+      font-size: 25px;
+    }
+    .card-2-sec{
+      margin: 15px;
+    }
+  }
+  .container-5{
+    display: flex;
+    flex-direction: column;
   }
   .container-6{
     display: flex;
@@ -336,95 +325,48 @@ footer{
     align-items: center;
 }
 }
-@media screen and ( max-width:$table){
-  .header-main-text{
-    .header-main-2{
-     font-size: 25px;
-     margin: 15px;
-     
-    }
-   } 
-   .container-1{
-     display: flex;
-     flex-direction: column;
-     .card-1-img{
-       width: 300px;
-     }
-     .card-1-texts{
-       margin: 20px;
-     }
-   }
-   .container-4{
-     .card-2-main{
-       font-size: 25px;
-     }
-     .card-2-sec{
-       margin: 15px;
-     }
-   }
-   .container-5{
-     display: flex;
-     flex-direction: column;
-   }
-   .container-7{
-     display: flex;
-     flex-direction: column;
-     .box-1{
-       width: 250px;
-     }
-   }
-   .container-6{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
- 
-}
+
+  
 @media screen and (max-width:$desktop){
   .header-main-text{
     .header-main-2{
-     font-size: 25px;
+     font-size: 20px;
      margin: 15px;
      
     }
    } 
-   .container-1{
-     display: flex;
-     flex-direction: column;
-     .card-1-img{
-       width: 300px;
-     }
-     .card-1-texts{
-       margin: 20px;
-     }
+   .contact-table-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
    }
    .container-4{
-     .card-2-main{
-       font-size: 25px;
-     }
-     .card-2-sec{
-       margin: 15px;
-     }
-   }
-   .container-5{
-     display: flex;
-     flex-direction: column;
-   }
-   .container-7{
-     display: flex;
-     flex-direction: column;
-     .box-1{
-       width: 250px;
-     }
-   }
-   .container-6{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
+    .card-2-main{
+      font-size: 25px;
+    }
+    .card-2-sec{
+      margin: 15px;
+    }
+  }
+  .container-5{
+    display: flex;
+    flex-direction: column;
+  }
+  .container-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+}
+
+  
+
+
+
+
+
 
 
 
@@ -500,4 +442,3 @@ footer{
 .menu__item:hover {
   background-color: #CFD8DC;
 }
-
