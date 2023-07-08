@@ -117,22 +117,35 @@ header .header-main-text .header-main-1 {
 .menu-list .menu {
   margin: 30px;
 }
-
-.container-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  transform: translateY(100px);
+.menu-list .menu .menu-main {
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: "Domine", serif;
 }
-.container-3 .card-3-img {
-  width: 350px;
-  height: 350;
-  -o-object-fit: contain;
-     object-fit: contain;
+.menu-list .menu .menu-sec {
+  font-weight: lighter;
+}
+.menu-list .menu .money-mark {
+  color: #ff8b00;
 }
 
 .container-4 {
   transform: translateY(200px);
+}
+.container-4 .card-2-texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-4 .card-2-texts .card-2-main {
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: "Domine", serif;
+}
+.container-4 .card-2-texts .card-2-sec {
+  font-family: "Domine", serif;
+  font-size: 20px;
 }
 
 .container-5 {
@@ -177,7 +190,7 @@ header .header-main-text .header-main-1 {
   flex-direction: row;
   align-items: self-start;
   justify-content: space-around;
-  transform: translateY(500px);
+  transform: translateY(700px);
 }
 .container-6 .last-card {
   display: flex;
@@ -205,7 +218,7 @@ header .header-main-text .header-main-1 {
 }
 
 footer {
-  transform: translateY(600px);
+  transform: translateY(700px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -214,6 +227,153 @@ footer {
   height: 50px;
 }
 
+.container-7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(500px);
+}
+.container-7 .card-img {
+  width: 250px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container-7 .box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  height: 300px;
+}
+.container-7 .box-1 .sec-card-main-text {
+  font-weight: bolder;
+}
+.container-7 .box-1 .sec-card-money-mark {
+  color: #FFA500;
+}
+
+@media screen and (max-width: 400px) {
+  .header-main-text .header-main-2 {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 .card-1-img {
+    width: 300px;
+  }
+  .container-1 .card-1-texts {
+    margin: 20px;
+  }
+  .container-4 .card-2-main {
+    font-size: 25px;
+  }
+  .container-4 .card-2-sec {
+    margin: 15px;
+  }
+  .container-5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-7 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-7 .box-1 {
+    width: 250px;
+  }
+  .container-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header-main-text .header-main-2 {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 .card-1-img {
+    width: 300px;
+  }
+  .container-1 .card-1-texts {
+    margin: 20px;
+  }
+  .container-4 .card-2-main {
+    font-size: 25px;
+  }
+  .container-4 .card-2-sec {
+    margin: 15px;
+  }
+  .container-5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-7 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-7 .box-1 {
+    width: 250px;
+  }
+  .container-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header-main-text .header-main-2 {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 .card-1-img {
+    width: 300px;
+  }
+  .container-1 .card-1-texts {
+    margin: 20px;
+  }
+  .container-4 .card-2-main {
+    font-size: 25px;
+  }
+  .container-4 .card-2-sec {
+    margin: 15px;
+  }
+  .container-5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-7 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-7 .box-1 {
+    width: 250px;
+  }
+  .container-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 #menu__toggle {
   opacity: 0;
 }
